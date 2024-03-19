@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="filter">
+          <button data-state="not-selected" class="btn">category1</button>
+          <button data-state="not-selected" class="btn">category2</button
+          ><button data-state="not-selected" class="btn">category3</button>
+        </div>
+        <ul id="cards" class="cards">
+          <li class="card">
+            <aside class="card__avatar">
+              <span data-letter>M</span>
+              <span data-letter>E</span>
+            </aside>
+            <div class="card__content">
+              <span>Mohammad</span> <span>Eshtaiwi</span>
+            </div>
+            <div class="card__category">Hireable</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
